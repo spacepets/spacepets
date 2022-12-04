@@ -5,28 +5,28 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638056025065706989
-    m_Hash: 497940343
+      ticks: 638057606432076287
+    m_Hash: 2885830950
   m_LockFileStatus:
     m_FilePath: G:/UnityProjects/spacepets/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638056025066067376
-    m_Hash: 1971275873
+      ticks: 638057606432777054
+    m_Hash: 814248555
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus:
-  - m_FilePath: G:\UnityProjects\PICO Unity Integration SDK v212/package.json
+  - m_FilePath: G:\UnityProjects\spacepets\PICO Unity Integration SDK v212/package.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638056024294793768
+      ticks: 638057602642776427
     m_Hash: 2949922666
-  - m_FilePath: G:\UnityProjects\PICO Unity Integration SDK v212
+  - m_FilePath: G:\UnityProjects\spacepets\PICO Unity Integration SDK v212
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -1066,13 +1066,13 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.7.8
     nextVersion: 
-- packageId: com.unity.xr.picoxr@file:G:\UnityProjects\PICO Unity Integration SDK
-    v212
+- packageId: com.unity.xr.picoxr@file:G:\UnityProjects\spacepets\PICO Unity Integration
+    SDK v212
   testable: 0
   isDirectDependency: 1
   version: 2.1.2
   source: 4
-  resolvedPath: G:\UnityProjects\PICO Unity Integration SDK v212
+  resolvedPath: G:\UnityProjects\spacepets\PICO Unity Integration SDK v212
   assetPath: Packages/com.unity.xr.picoxr
   name: com.unity.xr.picoxr
   displayName: PICO Integration
@@ -3747,7 +3747,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: "Common utility classes for XR projects\nRefer to API documentation
     for details. Some particularly useful utilities include:\n\u25AA Geometry Utilities\n 
     \u25AA Point of closest approach\n  \u25AA Closest edge of a polygon\n  \u25AA
@@ -3760,9 +3760,20 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 2.0.0-pre.3
+    - 2.0.0-pre.5
+    - 2.0.0-pre.6
     - 2.0.0
+    - 2.1.0-pre.1
+    - 2.1.0
+    - 2.2.0-pre.1
+    - 2.2.0-pre.2
     compatible:
     - 2.0.0
+    - 2.1.0-pre.1
+    - 2.1.0
+    - 2.2.0-pre.1
+    - 2.2.0-pre.2
     verified: 2.0.0
   dependencies:
   - name: com.unity.modules.xr
@@ -3792,9 +3803,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637810557940000000
   documentationUrl: 
   hasRepository: 1
   repository:
