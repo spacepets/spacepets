@@ -412,6 +412,7 @@ GameObject:
   - component: {fileID: 806881772}
   - component: {fileID: 806881771}
   - component: {fileID: 806881770}
+  - component: {fileID: 806881774}
   m_Layer: 0
   m_Name: LeftHand Controller
   m_TagString: Untagged
@@ -908,6 +909,25 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 7779212132400271959, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_ButtonPressPoint: 0.5
+--- !u!114 &806881774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806881768}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1ba2bcdb414e3b47aca41fdc1a87e64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hand: 0
+  neo3L: {fileID: 0}
+  neo3R: {fileID: 0}
+  PICO_4L: {fileID: 919132149155446097, guid: 794db497abad6544390046b7e735a368, type: 3}
+  PICO_4R: {fileID: 0}
+  legacyMaterial: {fileID: 0}
+  controllerSimulation: 0
 --- !u!1 &883531153
 GameObject:
   m_ObjectHideFlags: 0
@@ -952,7 +972,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 883531153}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.75949, y: -8.753677, z: 10.1645355}
+  m_LocalPosition: {x: 0, y: 5.33, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1035,7 +1055,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1218793327}
   m_LocalRotation: {x: 0.008629781, y: -0.7987041, z: -0.0013042002, w: 0.60166067}
-  m_LocalPosition: {x: 13.24, y: 13.64, z: -10.73}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1203,7 +1223,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1388904027}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.75949, y: -8.753677, z: 10.1645355}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1645,6 +1665,7 @@ GameObject:
   - component: {fileID: 1998236111}
   - component: {fileID: 1998236110}
   - component: {fileID: 1998236109}
+  - component: {fileID: 1998236113}
   m_Layer: 0
   m_Name: RightHand Controller
   m_TagString: Untagged
@@ -2141,3 +2162,22 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 875253871413052681, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_ButtonPressPoint: 0.5
+--- !u!114 &1998236113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998236107}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1ba2bcdb414e3b47aca41fdc1a87e64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hand: 1
+  neo3L: {fileID: 0}
+  neo3R: {fileID: 0}
+  PICO_4L: {fileID: 0}
+  PICO_4R: {fileID: 919132149155446097, guid: d725c19ae59faf64391312a687e04e4b, type: 3}
+  legacyMaterial: {fileID: 0}
+  controllerSimulation: 0
